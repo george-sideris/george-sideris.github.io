@@ -1,8 +1,8 @@
 ---
 layout: page
-title: project 1
-description: with background image
-img: assets/img/12.jpg
+title: Multi-Camera Optical Tracker for Image-Guided Neurosurgery
+description: Capstone project.
+img: assets/img/ring_detailed_model.jpg
 importance: 1
 category: work
 related_publications: true
