@@ -1,0 +1,8 @@
+github_users:
+  - george-sideris
+
+repo_description_lines_max: 2
+
+github_repos:
+  - george-sideris/LARK
+  - george-sideris/crane-hierarchical-rl

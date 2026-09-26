@@ -1,0 +1,6 @@
+# Social links shown at the bottom of the about page. Icons are drawn by the jekyll-socials plugin.
+cv_pdf: /assets/pdf/George_Sideris_CV.pdf
+email: george.sideris@mail.mcgill.ca
+github_username: george-sideris
+linkedin_username: sideris-george
+# scholar_userid: # add your Google Scholar ID to show the Scholar icon
