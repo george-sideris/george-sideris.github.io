@@ -5,10 +5,10 @@ description: Low-cost, occlusion-resilient multi-camera optical tracking for ima
 img: assets/img/projects/lark_card.jpg
 importance: 1
 category: research
-related_publications: sideris2025lark
+related_publications: true
 ---
 
-Commercial optical trackers for image-guided surgery cost $8,000 to $25,000 and lose the instrument the moment a hand or a drape blocks the line of sight. LARK is an open-source alternative that puts a ring of RGB cameras on the surgical light itself, so that some camera almost always sees the tool, and fuses their estimates with an adaptive Kalman filter.
+Commercial optical trackers for image-guided surgery cost US$8,000 to US$25,000 and lose the instrument the moment a hand or a drape blocks the line of sight. LARK is an open-source alternative that puts a ring of RGB cameras on the surgical light itself, so that some camera almost always sees the tool, and fuses their estimates with an adaptive Kalman filter.
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
@@ -24,7 +24,7 @@ Commercial optical trackers for image-guided surgery cost $8,000 to $25,000 and 
 - Tracks a surgical pointer and a static patient reference with ArUco fiducials seen from multiple calibrated cameras.
 - Reaches median target registration errors of 0.64 mm (static) and 0.73 mm (dynamic).
 - Degrades gracefully under partial occlusion instead of dropping out.
-- Costs about $1,000 USD in parts, an order of magnitude below commercial systems.
+- Costs about US$1,000 in parts, an order of magnitude below commercial systems.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -42,4 +42,4 @@ Commercial optical trackers for image-guided surgery cost $8,000 to $25,000 and 
 
 I led the four-student team, co-designed and fabricated the light-mounted camera fixture, co-implemented multi-camera calibration and fiducial tracking, and designed the adaptive Kalman-filter fusion. The project won 2nd place in the McGill Engine Capstone Design Prize for Entrepreneurship and grew into [OPSIS](/cv/), a startup I co-founded to bring the tracker toward clinical use.
 
-Code, calibration tools, marker generation and Raspberry Pi camera nodes are on [GitHub](https://github.com/george-sideris/LARK). The preprint is on [Research Square](https://www.researchsquare.com/article/rs-7622287/v1) and the manuscript is under review at IEEE Transactions on Robotics.
+Code, calibration tools, marker generation and Raspberry Pi camera nodes are on [GitHub](https://github.com/george-sideris/LARK). The preprint is on [Research Square](https://www.researchsquare.com/article/rs-7622287/v1) and the manuscript is under review at IEEE Transactions on Robotics {% cite sideris2025lark %}.

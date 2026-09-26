@@ -5,7 +5,7 @@ description: Grasp targeting from raw point clouds, trained in simulation and de
 img: assets/img/projects/crane_card.jpg
 importance: 2
 category: research
-related_publications: sideris2026grasp, sideris2026thesis
+related_publications: true
 ---
 
 Mill yards receive wood in dense piles that a grapple-equipped log loader must clear, cycle after cycle, all shift long. The task breaks most grasping assumptions: hundreds of near-identical logs rest in frictional contact, the grapple captures several at once, every grasp reshapes the pile, and the machine only sees a partial, noisy surface.
@@ -31,4 +31,4 @@ My master's thesis learns *where to grasp* directly from raw, unsegmented point 
 
 In simulation, behavior cloning fully clears 98 of 100 piles of 200 logs, and RL fine-tuning improves load stability. In twelve field trials on the crane across three pile shapes, the learned policies deposited a larger share of the log inventory than the geometric heuristic previously deployed on the machine, and the fine-tuned policy had the highest rate of successful grasp-and-deposit cycles.
 
-The work is supported by an FRQNT master's scholarship and a Mitacs Accelerate award with FPInnovations. A paper is under review for ICRA 2027, and the thesis is being completed in the Department of Mechanical Engineering at McGill under Prof. Inna Sharf.
+The work is supported by an FRQNT master's scholarship and a Mitacs Accelerate award with FPInnovations. A paper is under review for ICRA 2027 {% cite sideris2026grasp %}, and the thesis {% cite sideris2026thesis %} is being completed in the Department of Mechanical Engineering at McGill under Prof. Inna Sharf.

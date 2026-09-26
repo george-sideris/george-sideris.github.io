@@ -3,185 +3,134 @@ cv:
   label: M.Sc. student, Mechanical Engineering
   email: george.sideris@mail.mcgill.ca
   location: Montréal, QC, Canada
-  image: ""
+  image: ''
   summary: Robotics researcher working on learning-based manipulation for heavy machinery and low-cost optical tracking for surgery.
-
   social_networks:
-    - network: GitHub
-      username: george-sideris
-    - network: LinkedIn
-      username: sideris-george
-
+  - network: GitHub
+    username: george-sideris
+  - network: LinkedIn
+    username: sideris-george
   sections:
     Education:
-      - institution: McGill University
-        location: Montréal, QC, Canada
-        url: https://www.mcgill.ca/mecheng/
-        area: Mechanical Engineering (Thesis)
-        studyType: Master of Science
-        start_date: 2024-08
-        end_date: present
-        highlights:
-          - "Graduate coursework: Applied Robotics; Fundamentals of Computer Vision; Reinforcement Learning (2nd highest class grade award); Advanced Topics in Vision and Robotics."
-          - "Teaching assistantships: Applied Electronics and Instrumentation; System Dynamics and Control; Engineering Economics (five terms)."
-
-      - institution: McGill University
-        location: Montréal, QC, Canada
-        url: https://www.mcgill.ca/mecheng/
-        area: Mechanical Engineering (Internship Program)
-        studyType: Bachelor of Engineering
-        start_date: 2019-08
-        end_date: 2024-05
-        highlights:
-          - "Graduate coursework: Applied Machine Learning; Probability, Statistics and Machine Learning for Mechanical Engineering; Control Systems."
-
-    Research Experience:
-      - company: Aerospace Mechatronics Lab, McGill University
-        position: "Graduate Research Assistant (Advisor: Prof. Inna Sharf)"
-        location: Montréal, QC, Canada
-        start_date: 2024-08
-        end_date: present
-        highlights:
-          - Built a high-fidelity, GPU-parallel Isaac Lab simulation of a forestry crane clearing log piles.
-          - Trained a PointNet-based grasp-targeting policy by behavior cloning from a privileged-state expert and fine-tuned it with PPO using an asymmetric actor-critic, reaching 98.2% pile clearing from raw point clouds.
-          - Calibrated the simulation against the physical crane testbed and ran field trials comparing learned policies against the deployed heuristic.
-
-      - company: NeuroImaging and Surgical Technologies Lab, McGill University
-        position: "Undergraduate Research Assistant (Advisor: Prof. D. Louis Collins)"
-        location: Montréal, QC, Canada
-        start_date: 2023-08
-        end_date: 2025-09
-        highlights:
-          - Led a team of four to build LARK, a multi-camera optical tracker for occlusion-robust, sub-millimeter surgical tool tracking.
-          - Co-designed and fabricated the fixture that mounts the cameras on the operating-room light; co-implemented multi-camera calibration and ArUco-based tracking.
-          - Designed and implemented the adaptive Kalman-filter fusion strategy. 2nd place, McGill Engine Capstone Design Prize for Entrepreneurship.
-
-      - company: Aerospace Mechatronics Lab, McGill University
-        position: "Undergraduate Research Assistant, SURE (Advisor: Prof. Inna Sharf)"
-        location: Montréal, QC, Canada
-        start_date: 2023-05
-        end_date: 2023-08
-        highlights:
-          - Created datasets to train a CNN for grapple and log segmentation, grapple-opening prediction and log counting; integrated a draw-wire sensor on the grapple for experimental validation.
-          - Designed an experimental setup emulating a log-loader manipulator for anti-sway trajectory planner validation (published at ICRA 2025).
-
-    Industry Experience:
-      - company: OPSIS
-        position: Co-Founder
-        location: Montréal, QC, Canada
-        start_date: 2024-05
-        end_date: present
-        highlights:
-          - Developing a low-cost, occlusion-resilient surgical tool tracking system for minimally invasive guided surgery.
-          - Completed McGill Engine's TechAccel program; awarded the Ian McLachlin Prize for Entrepreneurship. Supervised a business intern in summer 2025.
-
-      - company: Lockheed Martin CES
-        position: Jet Engine MRO Engineering Intern
-        location: Montréal, QC, Canada
-        start_date: 2022-01
-        end_date: 2022-08
-        highlights:
-          - Built a dataset of 100+ labelled stereo-microscope images of defective shop-floor parts and drafted the AI-integration sections of an $8M CAD NGen proposal on automated visual inspection.
-          - Designed and procured 10+ maintenance tools in AutoCAD; dispositioned 12 defect cases on engine parts, saving over $150K CAD.
-
-      - company: Bombardier Aerospace
-        position: Project Engineering Intern
-        location: Montréal, QC, Canada
-        start_date: 2021-05
-        end_date: 2021-12
-        highlights:
-          - Tracked stress and materials-and-processes items from inception to disposition in Power BI.
-          - Built a VBA tool for managing aircraft design modifications, saving four person-hours per week.
-
+    - institution: McGill University
+      location: Montréal, QC, Canada
+      url: https://www.mcgill.ca/mecheng/
+      area: Mechanical Engineering (Thesis)
+      studyType: Master of Science
+      start_date: 2024-08
+      end_date: present
+      highlights:
+      - 'Graduate coursework: Applied Robotics; Fundamentals of Computer Vision; Reinforcement Learning (2nd highest class grade award); Advanced Topics in Vision and Robotics.'
+      - 'Teaching assistantships: Applied Electronics and Instrumentation; System Dynamics and Control; Engineering Economics (five terms).'
+    - institution: McGill University
+      location: Montréal, QC, Canada
+      url: https://www.mcgill.ca/mecheng/
+      area: Mechanical Engineering (Internship Program)
+      studyType: Bachelor of Engineering
+      start_date: 2019-08
+      end_date: 2024-05
+      highlights:
+      - 'Graduate coursework: Applied Machine Learning; Probability, Statistics and Machine Learning for Mechanical Engineering; Control Systems.'
+    Experience:
+    - company: Aerospace Mechatronics Lab, McGill University
+      position: 'Graduate Research Assistant (Advisor: Prof. Inna Sharf)'
+      location: Montréal, QC, Canada
+      start_date: 2024-08
+      end_date: present
+      highlights:
+      - Built a high-fidelity, GPU-parallel Isaac Lab simulation of a forestry crane clearing log piles.
+      - Trained a PointNet-based grasp-targeting policy by behavior cloning from a privileged-state expert and fine-tuned it with PPO using an asymmetric actor-critic, reaching 98.2% pile clearing from raw point clouds.
+      - Calibrated the simulation against the physical crane testbed and ran field trials comparing learned policies against the deployed heuristic.
+    - company: NeuroImaging and Surgical Technologies Lab, McGill University
+      position: 'Undergraduate Research Assistant (Advisor: Prof. D. Louis Collins)'
+      location: Montréal, QC, Canada
+      start_date: 2023-08
+      end_date: 2025-09
+      highlights:
+      - Led a team of four to build LARK, a multi-camera optical tracker for occlusion-robust, sub-millimeter surgical tool tracking.
+      - Co-designed and fabricated the fixture that mounts the cameras on the operating-room light; co-implemented multi-camera calibration and ArUco-based tracking.
+      - Designed and implemented the adaptive Kalman-filter fusion strategy. 2nd place, McGill Engine Capstone Design Prize for Entrepreneurship.
+    - company: Aerospace Mechatronics Lab, McGill University
+      position: 'Undergraduate Research Assistant, SURE (Advisor: Prof. Inna Sharf)'
+      location: Montréal, QC, Canada
+      start_date: 2023-05
+      end_date: 2023-08
+      highlights:
+      - Created datasets to train a CNN for grapple and log segmentation, grapple-opening prediction and log counting; integrated a draw-wire sensor on the grapple for experimental validation.
+      - Designed an experimental setup emulating a log-loader manipulator for anti-sway trajectory planner validation (published at ICRA 2025).
+    - company: OPSIS
+      position: Co-Founder
+      location: Montréal, QC, Canada
+      start_date: 2024-05
+      end_date: present
+      highlights:
+      - Developing a low-cost, occlusion-resilient surgical tool tracking system for minimally invasive guided surgery.
+      - Completed McGill Engine's TechAccel program; awarded the Ian McLachlin Prize for Entrepreneurship. Supervised a business intern in summer 2025.
+    - company: Lockheed Martin CES
+      position: Jet Engine MRO Engineering Intern
+      location: Montréal, QC, Canada
+      start_date: 2022-01
+      end_date: 2022-08
+      highlights:
+      - Built a dataset of 100+ labelled stereo-microscope images of defective shop-floor parts and drafted the AI-integration sections of an $8M CAD NGen proposal on automated visual inspection.
+      - Designed and procured 10+ maintenance tools in AutoCAD; dispositioned 12 defect cases on engine parts, saving over $150K CAD.
+    - company: Bombardier Aerospace
+      position: Project Engineering Intern
+      location: Montréal, QC, Canada
+      start_date: 2021-05
+      end_date: 2021-12
+      highlights:
+      - Tracked stress and materials-and-processes items from inception to disposition in Power BI.
+      - Built a VBA tool for managing aircraft design modifications, saving four person-hours per week.
     Leadership:
-      - company: McGill Vertical Flight Society Projects Team
-        position: Co-Captain / Captain / Structures Lead
-        location: Montréal, QC, Canada
-        start_date: 2020-08
-        end_date: 2023-06
-        highlights:
-          - "Co-Captain (2022–23): co-led twenty students to design and build a 20 lb, 10 ft blended-wing tail-sitter with hover-to-cruise transition. 3rd place and Perseverance award, 2023 VFS Design-Build-Vertical-Flight competition."
-          - "Captain (2021–22): led eight students to build a 15 lb, 6.5 ft quadrotor with airfoils; custom frame design, Abaqus FEA, Arduino-controlled wing tilt. Best Drawing Package award."
-          - "Structures Lead (2020–21): led the sub-team that created the team's first custom hex-copter frame."
-
-      - company: McGill Institute for Aerospace Engineering
-        position: VP External
-        location: Montréal, QC, Canada
-        start_date: 2021-06
-        end_date: 2022-06
-        highlights:
-          - Organized the inaugural AeroFair with recruiters from six aerospace companies and 100+ students; ran Python workshops on Git/APIs and CNNs for fault classification.
-
-      - company: Canadian Robotics Competition teams (Marianopolis College, Laval Senior Academy)
-        position: Captain / Team Member
-        location: Montréal and Laval, QC, Canada
-        start_date: 2016-09
-        end_date: 2019-05
-
+    - bullet: '**Co-Captain / Captain / Structures Lead**, McGill Vertical Flight Society Projects Team (2020–2023). Co-Captain (2022–23): co-led twenty students to design and build a 20 lb, 10 ft blended-wing tail-sitter with hover-to-cruise transition. 3rd place and Perseverance award, 2023 VFS Design-Build-Vertical-Flight competition. Captain (2021–22): led eight students to build a 15 lb, 6.5 ft quadrotor with airfoils; custom frame design, Abaqus FEA, Arduino-controlled wing tilt. Best Drawing Package award. Structures Lead (2020–21): led the sub-team that created the team''s first custom hex-copter frame.'
+    - bullet: '**VP External**, McGill Institute for Aerospace Engineering (2021–2022). Organized the inaugural AeroFair with recruiters from six aerospace companies and 100+ students; ran Python workshops on Git/APIs and CNNs for fault classification.'
+    - bullet: '**Captain / Team Member**, Canadian Robotics Competition teams (Marianopolis College, Laval Senior Academy) (2016–2019)'
     Awards:
-      - title: Mitacs Accelerate Research Award
-        date: 2025-11
-        awarder: Mitacs, with FPInnovations
-        summary: $30,000 graduate research internship on autonomous log-pile pick-and-place and industrial robotics.
-
-      - title: FRQNT Master's Training Scholarship
-        date: 2025-06
-        awarder: Fonds de recherche du Québec – Nature et technologies
-        summary: $26,667 provincial graduate research scholarship.
-
-      - title: Ian McLachlin Prize for Entrepreneurship in Engineering
-        date: 2024-11
-        awarder: McGill Engine
-        summary: Awarded to high-achieving engineering students who have started or advanced an entrepreneurial project with business or social impact.
-
-      - title: Engine Capstone Design Prize (2nd place)
-        date: 2024-04
-        awarder: McGill Engine
-        summary: Recognition of final-year design projects with startup potential.
-
-      - title: SURE Award
-        date: 2023-05
-        awarder: McGill Faculty of Engineering
-        summary: $9,000 undergraduate research traineeship.
-
-      - title: VFS Design-Build-Vertical-Flight Competition, 3rd place
-        date: 2023-06
-        awarder: Vertical Flight Society
-
-      - title: VFS Design-Build-Vertical-Flight Competition, Best Drawing Package
-        date: 2021-06
-        awarder: Vertical Flight Society
-
-      - title: McGill Science Prize
-        date: 2019-08
-        awarder: McGill University
-
-      - title: Silver Key Scholarship
-        date: 2018-10
-        awarder: Marianopolis College
-        summary: $1,500 scholarship for academic achievement and community involvement.
-
+    - title: Mitacs Accelerate Research Award
+      date: 2025-11
+      awarder: Mitacs, with FPInnovations
+      summary: $30,000 graduate research internship on autonomous log-pile pick-and-place and industrial robotics.
+    - title: FRQNT Master's Training Scholarship
+      date: 2025-06
+      awarder: Fonds de recherche du Québec – Nature et technologies
+      summary: $26,667 provincial graduate research scholarship.
+    - title: Ian McLachlin Prize for Entrepreneurship in Engineering
+      date: 2024-11
+      awarder: McGill Engine
+      summary: Awarded to high-achieving engineering students who have started or advanced an entrepreneurial project with business or social impact.
+    - title: Engine Capstone Design Prize (2nd place)
+      date: 2024-04
+      awarder: McGill Engine
+      summary: Recognition of final-year design projects with startup potential.
+    - title: SURE Award
+      date: 2023-05
+      awarder: McGill Faculty of Engineering
+      summary: $9,000 undergraduate research traineeship.
+    - title: VFS Design-Build-Vertical-Flight Competition, 3rd place
+      date: 2023-06
+      awarder: Vertical Flight Society
+    - title: VFS Design-Build-Vertical-Flight Competition, Best Drawing Package
+      date: 2021-06
+      awarder: Vertical Flight Society
+    - title: McGill Science Prize
+      date: 2019-08
+      awarder: McGill University
+    - title: Silver Key Scholarship
+      date: 2018-10
+      awarder: Marianopolis College
+      summary: $1,500 scholarship for academic achievement and community involvement.
     Presentations:
-      - title: Multi-Camera Surgical Tool Localization Setup for Image-Guided Neurosurgery
-        date: 2024-04-03
-        awarder: Capstone Poster Presentation, McGill University
-
-      - title: Dataset Creation and Experimental Validation of a Multi-Stage CNN for Log Loader Grapple Characterization
-        date: 2023-08-17
-        awarder: Undergraduate Research Poster Presentation, McGill University
-
-      - title: My Internship Experiences in Montreal's Aerospace Sector
-        date: 2022-10-25
-        awarder: McGill Institute for Aerospace Engineering Internship Panel
-
+    - bullet: '*Multi-Camera Surgical Tool Localization Setup for Image-Guided Neurosurgery*. Capstone Poster Presentation, McGill University, 2024-04-03.'
+    - bullet: '*Dataset Creation and Experimental Validation of a Multi-Stage CNN for Log Loader Grapple Characterization*. Undergraduate Research Poster Presentation, McGill University, 2023-08-17.'
+    - bullet: '*My Internship Experiences in Montreal''s Aerospace Sector*. McGill Institute for Aerospace Engineering Internship Panel, 2022-10-25.'
     Academic Service:
-      - name: Peer review
-        summary: "IEEE International Conference on Robotics and Automation (ICRA 2026); IEEE Robotics and Automation Letters (RA-L 2026)."
-
+    - label: Peer review
+      details: IEEE International Conference on Robotics and Automation (ICRA 2026); IEEE Robotics and Automation Letters (RA-L 2026).
     Skills:
-      - name: Programming
-        icon: fa-solid fa-code
-        keywords: "Python, C++, ROS, Linux, Isaac Sim, Isaac Lab, MATLAB, Simulink, VBA, LaTeX"
-      - name: Design
-        icon: fa-solid fa-drafting-compass
-        keywords: "SolidWorks, Fusion 360, AutoCAD, Abaqus, Mastercam, Cura"
+    - name: Programming
+      icon: fa-solid fa-code
+      keywords: Python, C++, ROS, Linux, Isaac Sim, Isaac Lab, MATLAB, Simulink, VBA, LaTeX
+    - name: Design
+      icon: fa-solid fa-drafting-compass
+      keywords: SolidWorks, Fusion 360, AutoCAD, Abaqus, Mastercam, Cura
