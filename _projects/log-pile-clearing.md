@@ -2,7 +2,7 @@
 layout: page
 title: Learning log pile clearing
 description: Grasp targeting from raw point clouds, trained in simulation and deployed unchanged on a hydraulic forestry crane
-img: assets/img/projects/crane_card.jpg
+img: assets/img/projects/crane_demo.gif
 importance: 2
 category: research
 related_publications: true
@@ -29,6 +29,6 @@ My master's thesis learns *where to grasp* directly from raw, unsegmented point 
 
 **Results**
 
-In simulation, behavior cloning clears 98 of 100 piles of 200 logs, and BC→RL improves load stability. Twelve field trials compared a geometric heuristic, RL from scratch, BC, and BC→RL through complete grasp-transport-deposit cycles. BC and BC→RL deposited 93.8% and 88.9% of the pooled log inventory, against 80.4% for the heuristic, and BC→RL deposited logs on 83.6% of its cycles, against 79.6% for the heuristic and 65.7% for BC. The learned policies did this while observing unfiltered point clouds that still contained the storage rack's rails and poles.
+In simulation, behavior cloning clears 98 of 100 piles of 200 logs, and BC→RL improves load stability. Twelve field trials compared a geometric heuristic baseline (which I also implemented), RL from scratch, BC, and BC→RL through complete grasp-transport-deposit cycles. BC and BC→RL deposited 93.8% and 88.9% of the pooled log inventory, against 80.4% for the heuristic, and BC→RL deposited logs on 83.6% of its cycles, against 79.6% for the heuristic and 65.7% for BC. The learned policies did this while observing unfiltered point clouds that still contained the storage rack's rails and poles.
 
 The paper is on [arXiv](https://arxiv.org/abs/2610.07613) and under review for ICRA 2027 {% cite sideris2026grasp %}. The work was supported by an FRQNT master's scholarship and a Mitacs Accelerate internship with FPInnovations, and is the subject of my M.Sc. thesis {% cite sideris2026thesis %} in the Department of Mechanical Engineering at McGill under Prof. Inna Sharf.

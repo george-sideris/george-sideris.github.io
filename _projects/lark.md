@@ -2,7 +2,7 @@
 layout: page
 title: LARK
 description: Low-cost, occlusion-resilient multi-camera optical tracking for image-guided surgery
-img: assets/img/projects/lark_card.jpg
+img: assets/img/projects/lark_demo.gif
 importance: 1
 category: research
 related_publications: true
@@ -40,6 +40,6 @@ Commercial optical trackers for image-guided surgery cost US$8,000 to US$25,000 
 
 **My role**
 
-I led the four-student team, co-designed and fabricated the light-mounted camera fixture, co-implemented multi-camera calibration and fiducial tracking, and developed the adaptive Kalman-filter fusion with online per-camera noise estimation. The project won 2nd place in the McGill Engine Capstone Design Prize for Entrepreneurship and grew into OPSIS, which I co-founded through McGill Engine's TechAccel program (2024–2026) to bring the tracker toward clinical use.
+I led the four-student team, co-designed and fabricated the light-mounted camera fixture, co-implemented multi-camera calibration and fiducial tracking, and developed the adaptive Kalman-filter fusion with online per-camera noise estimation. The project won 2nd place in the McGill Engine Capstone Design Prize for Entrepreneurship and led to OPSIS (2024–2026), a co-founded venture that explored commercializing the tracker through McGill Engine's TechAccel program and received the Ian McLachlin Prize for Entrepreneurship.
 
 The preprint is on [arXiv](https://arxiv.org/abs/2610.07561) and the manuscript is submitted to Medical Image Analysis {% cite sideris2026lark %}. Code, calibration tools, marker generation and Raspberry Pi camera nodes are on [GitHub](https://github.com/george-sideris/LARK); hardware designs and software are also published on the [NIST lab software page](https://nist.mni.mcgill.ca/software/), with datasets on the [data page](https://nist.mni.mcgill.ca/data/).
