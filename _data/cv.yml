@@ -1,6 +1,6 @@
 cv:
   name: George Sideris
-  label: Robotics Research Engineer, Bracket Bot · Incoming Ph.D. student, Computer Science, McGill University
+  label: Robotics Research Engineer, Bracket Bot · Incoming Ph.D. student, Computer Science, McGill University / Mila
   email: george.sideris@mail.mcgill.ca
   location: San Francisco, CA
   image: ""
@@ -14,7 +14,7 @@ cv:
 
   sections:
     Education:
-      - institution: McGill University, School of Computer Science
+      - institution: McGill University, School of Computer Science / Mila
         location: Montréal, QC, Canada
         url: https://www.cs.mcgill.ca/
         area: Computer Science (Thesis). Supervisor Prof. David Meger. FRQNT Doctoral Research Scholarship.
