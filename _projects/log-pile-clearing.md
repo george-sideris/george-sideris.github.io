@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Learning log pile clearing
-description: Grasp targeting from raw point clouds, trained in simulation and deployed on a hydraulic forestry crane
+description: Grasp targeting from raw point clouds, trained in simulation and deployed unchanged on a hydraulic forestry crane
 img: assets/img/projects/crane_card.jpg
 importance: 2
 category: research
@@ -13,22 +13,22 @@ Mill yards receive wood in dense piles that a grapple-equipped log loader must c
 My master's thesis learns *where to grasp* directly from raw, unsegmented point clouds and carries the learned policy onto a physical forestry crane.
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include video.liquid path="assets/video/crane_demo.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true loop=true muted=true %}
+    <div class="col-sm-10 mt-3 mt-md-0">
+        <iframe src="https://www.youtube.com/embed/woyDNW_oN7A" title="Log pile clearing supplementary video" class="rounded z-depth-1" style="width:100%; aspect-ratio:16/9; border:0;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
 </div>
 <div class="caption">
-    The Isaac Lab simulation: a crane clears a pile and stacks logs on a trailer, with continuous collision detection for clean contact resolution.
+    Supplementary video for the paper: simulation and field trials on the trailer-mounted hydraulic crane.
 </div>
 
 **Approach**
 
 - **Simulation.** A GPU-parallel Isaac Lab environment of the crane, grapple and log pile, tuned from field measurements, supports demonstration collection and on-policy training across dozens of environments at once.
-- **Policy.** A PointNet-style network scores every observed point, grasps at the highest-scoring one, and predicts grasp depth and grapple yaw there. It is trained by behavior cloning of a privileged-state expert and fine-tuned with PPO, using the same per-point scores as a categorical action distribution.
-- **Sim-to-real.** A calibration campaign aligns simulated sensing and control with the physical testbed before deployment.
+- **Policy.** A PointNet-based network classifies at which observed point to grasp and predicts depth and grapple orientation there. The same outputs support behavior cloning from a privileged-state expert, reinforcement-learning fine-tuning (BC→RL) or training from scratch, and deployment.
+- **Sim-to-real.** A calibration campaign, carried out during a Mitacs Accelerate internship with FPInnovations, aligns simulated sensing and control with the physical testbed, and the policies run unchanged on the crane.
 
 **Results**
 
-In simulation, behavior cloning fully clears 98 of 100 piles of 200 logs, and RL fine-tuning improves load stability. In twelve field trials on the crane across three pile shapes, the learned policies deposited a larger share of the log inventory than the geometric heuristic previously deployed on the machine, and the fine-tuned policy had the highest rate of successful grasp-and-deposit cycles.
+In simulation, behavior cloning clears 98 of 100 piles of 200 logs, and BC→RL improves load stability. Twelve field trials compared a geometric heuristic, RL from scratch, BC, and BC→RL through complete grasp-transport-deposit cycles. BC and BC→RL deposited 93.8% and 88.9% of the pooled log inventory, against 80.4% for the heuristic, and BC→RL deposited logs on 83.6% of its cycles, against 79.6% for the heuristic and 65.7% for BC. The learned policies did this while observing unfiltered point clouds that still contained the storage rack's rails and poles.
 
-The work is supported by an FRQNT master's scholarship and a Mitacs Accelerate award with FPInnovations. A paper is under review for ICRA 2027 {% cite sideris2026grasp %}, and the thesis {% cite sideris2026thesis %} is being completed in the Department of Mechanical Engineering at McGill under Prof. Inna Sharf.
+The paper is on [arXiv](https://arxiv.org/abs/2610.07613) and under review for ICRA 2027 {% cite sideris2026grasp %}. The work was supported by an FRQNT master's scholarship and a Mitacs Accelerate internship with FPInnovations, and is the subject of my M.Sc. thesis {% cite sideris2026thesis %} in the Department of Mechanical Engineering at McGill under Prof. Inna Sharf.
