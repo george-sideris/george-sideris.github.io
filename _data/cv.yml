@@ -71,7 +71,7 @@ cv:
         highlights:
           - Mitacs Accelerate internship on the project "Development of Autonomy for Log-loading Machines in Canadian Mill Yards." Calibrated the simulated sensing and control of a trailer-mounted hydraulic forestry crane against the physical testbed and ran field trials deploying learned grasp-targeting policies against the deployed heuristic baseline for automated log-pile clearing.
 
-      - company: NeuroImaging and Surgical Technologies Lab, McGill University
+      - company: '<a href="https://nist.mni.mcgill.ca/">NeuroImaging and Surgical Technologies Lab</a>, <a href="https://www.mcgill.ca/neuro/">The Neuro</a> (Montreal Neurological Institute-Hospital), McGill University'
         position: "Undergraduate Research Assistant (Advisor: Prof. Louis Collins)"
         location: Montréal, QC, Canada
         start_date: 2023-08

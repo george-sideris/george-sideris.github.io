@@ -14,11 +14,11 @@ My master's thesis learns *where to grasp* directly from raw, unsegmented point 
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-10 mt-3 mt-md-0">
-        <iframe src="https://www.youtube.com/embed/woyDNW_oN7A" title="Log pile clearing supplementary video" class="rounded z-depth-1" style="width:100%; aspect-ratio:16/9; border:0;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <img src="/assets/img/projects/crane_demo.gif" alt="Eight simulated cranes clearing log piles in parallel, then the real crane clearing a pile in a field trial" class="img-fluid rounded z-depth-1" style="width:100%;">
     </div>
 </div>
 <div class="caption">
-    Supplementary video for the paper: simulation and field trials on the trailer-mounted hydraulic crane.
+    Eight environments clearing in parallel in simulation, then the same policy on the trailer-mounted hydraulic crane during a field trial. Full <a href="https://youtu.be/woyDNW_oN7A">supplementary video</a>.
 </div>
 
 **Approach**

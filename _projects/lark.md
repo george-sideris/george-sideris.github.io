@@ -12,11 +12,11 @@ Commercial optical trackers for image-guided surgery cost US$8,000 to US$25,000 
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-10 mt-3 mt-md-0">
-        <iframe src="https://www.youtube.com/embed/ApZ8q9DjB-4" title="LARK supplementary video" class="rounded z-depth-1" style="width:100%; aspect-ratio:16/9; border:0;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <img src="/assets/img/projects/lark_demo.gif" alt="LARK tracking a surgical pointer on a head phantom: five camera views and the live visualization" class="img-fluid rounded z-depth-1" style="width:100%;">
     </div>
 </div>
 <div class="caption">
-    Supplementary video: real-time tracking of a surgical pointer during a head-phantom trial.
+    Live trajectory tracking on the head phantom: the five camera views and the live visualization as the pointer follows grooves on the cranial surface. Full <a href="https://youtu.be/ApZ8q9DjB-4">supplementary video</a>.
 </div>
 
 **What it does**
