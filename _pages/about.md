@@ -25,7 +25,7 @@ latest_posts:
   limit: 3
 ---
 
-I work on learning-based manipulation. Since October 2026 I am a Robotics Research Engineer at Bracket Bot in San Francisco. I'm interested in systems that act well from raw perception: learned control for robots and the sensing that supports it, with applications in robotics and healthcare.
+I work on learning-based manipulation. Since October 2026 I am a Robotics Research Engineer at Bracket Bot in San Francisco. I'm interested in systems that act well from raw visual input: learned control for robots and the sensing that supports it, with applications in robotics and healthcare.
 
 During my M.Sc. in Mechanical Engineering at McGill (expected Fall 2026), with [Prof. Inna Sharf](https://www.mcgill.ca/mecheng/people/staff/inna-sharf) at the [Aerospace Mechatronics Lab](https://aerospacemechatronics.lab.mcgill.ca/), I taught a hydraulic forestry crane to clear log piles: a policy that picks grasp points from raw point clouds, trained by imitation and reinforcement learning in Isaac Lab and deployed unchanged on the real crane, where it outperformed the geometric heuristic baseline I had also built ([arXiv](https://arxiv.org/abs/2610.07613), under review at ICRA 2027). Part of that work was a Mitacs Accelerate internship at FPInnovations as an Automation Research Intern, where I deployed the policies on their crane testbed.
 
