@@ -10,7 +10,7 @@ related_publications: true
 
 Mill yards receive wood in dense piles that a grapple-equipped log loader must clear, cycle after cycle, all shift long. The task breaks most grasping assumptions: hundreds of near-identical logs rest in frictional contact, the grapple captures several at once, every grasp reshapes the pile, and the machine only sees a partial, noisy surface.
 
-My master's thesis learns *where to grasp* directly from raw, unsegmented point clouds and carries the learned policy onto a physical forestry crane.
+My master's thesis learns *grasp targets*, where to grasp and how to orient the grapple, directly from raw, unsegmented point clouds and carries the learned policy onto a physical forestry crane.
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-10 mt-3 mt-md-0">

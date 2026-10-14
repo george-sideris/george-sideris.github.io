@@ -39,12 +39,12 @@
 @mastersthesis{sideris2026thesis,
   abbr        = {Thesis},
   bibtex_show = {true},
-  title       = {Learning Autonomous Log Pile Clearing from Point Clouds: From Simulation to Field Deployment on a Forestry Crane},
+  title       = {Learning Autonomous Log Pile Clearing from Point Clouds},
   author      = {Sideris, George},
   school      = {McGill University},
   address     = {Montréal, QC, Canada},
   year        = {2026},
-  note        = {M.Sc. thesis, Department of Mechanical Engineering. Expected Fall 2026},
+  note        = {M.Sc. thesis, Department of Mechanical Engineering, submitted August 2026},
   abstract    = {Automating log loading in mill yards requires deciding where to sink the grapple in a dense pile: hundreds of near-identical logs rest in frictional contact, the grapple captures bunches rather than single items, every grasp reshapes what remains, and the machine perceives the pile only through noisy depth sensing. This thesis learns that targeting decision directly from raw, unsegmented point clouds and carries the learned policy onto a physical forestry crane. A GPU-parallel simulation tuned from field measurements supports demonstration collection and on-policy training; a policy that scores every observed point and grasps at the highest-scoring one is trained by imitation of a privileged expert, then refined by reinforcement learning as a categorical distribution over those same points; and a calibration campaign aligns the simulated sensing and control with the physical testbed. Simulated evaluations and field trials on the crane compare the learned policies against the deployed heuristic baseline and demonstrate automated clearing of full log piles.},
   preview     = {crane.jpg}
 }
