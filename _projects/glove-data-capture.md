@@ -29,7 +29,7 @@ Demonstrations are the bottleneck for learning manipulation, and teleoperating a
 
 <div class="row">
     <div class="col-sm-8 mt-3 mt-md-0">
-        <img src="/assets/img/projects/glove_rerun.gif" alt="Rerun viewer replaying an episode: both hands' 3D trajectories over the workspace markers, with the two wrist camera streams" class="img-fluid rounded z-depth-1" style="width:100%;">
+        <img src="/assets/img/projects/glove_rerun_live.gif" alt="Rerun viewer replaying an episode: both hands' 3D trajectories over the workspace markers, with the two wrist camera streams" class="img-fluid rounded z-depth-1" style="width:100%;">
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/projects/glove_ik_replay.jpg" title="IK replay on the robot model" class="img-fluid rounded z-depth-1" %}
