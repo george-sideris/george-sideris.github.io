@@ -2,6 +2,7 @@
 layout: page
 title: Log-loader grapple perception and anti-sway testbed
 description: Datasets and hardware for CNN-based grapple characterization and anti-sway trajectory planning (ICRA 2025)
+img: assets/img/projects/testbed_setup.jpg
 importance: 4
 category: research
 related_publications: true
