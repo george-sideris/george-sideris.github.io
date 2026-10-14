@@ -38,7 +38,7 @@ Even before that, I interned at Lockheed Martin CES and Bombardier Aerospace, an
         <a href="/projects/log-pile-clearing/">
             <img src="/assets/img/projects/crane_demo.gif" alt="Learned grasp targeting: eight simulated cranes clearing log piles in parallel, then the real crane in a field trial" class="img-fluid rounded z-depth-1" style="width:100%;">
         </a>
-        <div class="caption"><a href="/projects/log-pile-clearing/">Learning log pile clearing</a>: trained in parallel simulation, deployed unchanged on a hydraulic crane.</div>
+        <div class="caption"><a href="/projects/log-pile-clearing/">Learning log pile clearing</a>: autonomous clearing from raw camera point clouds, trained in parallel simulation and deployed unchanged on a hydraulic crane.</div>
     </div>
     <div class="col-sm-6 mt-3 mt-sm-0">
         <a href="/projects/lark/">
