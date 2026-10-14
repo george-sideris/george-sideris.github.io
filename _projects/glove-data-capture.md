@@ -36,7 +36,7 @@ Demonstrations are the bottleneck for learning manipulation, and teleoperating a
     </div>
 </div>
 <div class="caption">
-    Left: an episode in the Rerun viewer, with both hands' tracked trajectories (left red, right blue) above the workspace markers and the two wrist camera streams on a scrubable timeline. Right: the same kind of trajectory replayed through inverse kinematics on the Bracket Bot model.
+    Left: an episode in the Rerun viewer, with both hands' tracked trajectories (left red, right blue) above the workspace markers, alongside the two wrist camera streams. Right: the same kind of trajectory replayed through inverse kinematics on the Bracket Bot model.
 </div>
 
 <div class="row justify-content-sm-center">
