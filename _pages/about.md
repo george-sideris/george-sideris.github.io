@@ -31,6 +31,8 @@ During my M.Sc. in Mechanical Engineering at McGill (expected Fall 2026), with [
 
 Before that, I led a four-student team at the [NeuroImaging and Surgical Technologies Lab](https://nist.mni.mcgill.ca/) (Prof. D. Louis Collins) at [The Neuro](https://www.mcgill.ca/neuro/) (Montreal Neurological Institute-Hospital) building [LARK](/projects/lark/), a multi-camera optical tracker for image-guided surgery that reaches sub-millimeter accuracy with under US$1,000 of hardware ([arXiv](https://arxiv.org/abs/2610.07561), submitted to Medical Image Analysis). I co-founded OPSIS to explore commercializing the tracker; we completed McGill Engine's TechAccel program and received the Ian McLachlin Prize for Entrepreneurship.
 
+Even before that, I interned at Lockheed Martin CES and Bombardier Aerospace, and led student design teams: the McGill Vertical Flight Society drone team as captain and co-captain, and competition robotics teams at Marianopolis College in the Canadian Robotics Competition.
+
 <div class="row mt-4 mb-2">
     <div class="col-sm-6 mt-3 mt-sm-0">
         <a href="/projects/log-pile-clearing/">
