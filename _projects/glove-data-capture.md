@@ -28,11 +28,11 @@ Demonstrations are the bottleneck for learning manipulation, and teleoperating a
 - **Output.** Per episode: metric, timestamped trajectories for both arms, synchronized wrist video and raw IMU, written in Bracket Bot's episode schema. One command records, processes, opens the viewer and asks keep or reject.
 
 <div class="row">
-    <div class="col-sm-8 mt-3 mt-md-0">
+    <div class="col-sm-6 mt-3 mt-md-0">
         <img src="/assets/img/projects/glove_rerun_live.gif" alt="Rerun viewer replaying an episode: both hands' 3D trajectories over the workspace markers, with the two wrist camera streams" class="img-fluid rounded z-depth-1" style="width:100%;">
     </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/glove_ik_replay.jpg" title="IK replay on the robot model" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm-6 mt-3 mt-md-0">
+        <img src="/assets/img/projects/glove_ik_replay.jpg" alt="Both Bracket Bot arms replaying a recorded bimanual trajectory through inverse kinematics, with the glove pose targets drawn as spheres" class="img-fluid rounded z-depth-1" style="width:100%;aspect-ratio:1866/1184;object-fit:cover;">
     </div>
 </div>
 <div class="caption">
