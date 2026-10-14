@@ -43,7 +43,7 @@ cv:
         start_date: 2026-10
         end_date: present
         highlights:
-          - Develop and deploy machine learning models for manipulation on the company's robots, and design end-effector hardware as needed.
+          - Design, develop, test and deploy robotics software and machine learning models for manipulation.
 
       - company: Aerospace Mechatronics Lab, McGill University
         position: "Graduate Research Assistant (Advisor: Prof. Inna Sharf)"
