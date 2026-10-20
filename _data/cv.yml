@@ -44,6 +44,7 @@ cv:
         end_date: present
         highlights:
           - Design, develop, test and deploy robotics software and machine learning models for manipulation.
+          - Designed and prototyped end effectors for the bimanual platform.
 
       - company: Aerospace Mechatronics Lab, McGill University
         position: "Graduate Research Assistant (Advisor: Prof. Inna Sharf)"
